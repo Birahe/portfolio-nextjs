@@ -7,3 +7,9 @@
 body {
   background-color: #d8e7de;
 }
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+  * {
+    zoom: 0.8;
+  }
+}
