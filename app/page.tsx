@@ -9,7 +9,7 @@ export default function Home() {
         }
       >
         <div className="w-max">
-          <p className="font-medium text-3xl">Hello! I'm Arda,</p>
+          <p className="font-medium text-3xl">Hello! I&apos;m Arda,</p>
           <p className="font-extrabold text-9xl relative left-[-10px]">
             Computer
           </p>
