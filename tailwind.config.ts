@@ -13,6 +13,7 @@ export default {
         accent: "#54576D",
         theme: "#82ACAC",
         light_theme: "#D8E7DE",
+        light_blue: "#9dc2c9",
         title: "#4A5C5B",
       },
       fontFamily: {

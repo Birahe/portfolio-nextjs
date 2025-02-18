@@ -9,10 +9,10 @@ export default function NavBar() {
     window.addEventListener("scroll", () => {
       const nav = document.querySelector("#navbar")!;
       if (window.pageYOffset > 2) {
-        nav.classList.add("bg-[#9dc2c9]");
+        nav.classList.add("bg-light_blue");
         nav.classList.add("shadow");
       } else {
-        nav.classList.remove("bg-[#9dc2c9]");
+        nav.classList.remove("bg-light_blue");
         nav.classList.remove("shadow");
       }
     });
