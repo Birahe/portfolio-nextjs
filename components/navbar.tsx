@@ -9,7 +9,7 @@ export default function NavBar() {
     >
       <Link
         href={"#"}
-        className="flex w-96 justify-start font-semibold text-2xl border-b-2 border-front"
+        className="flex w-96 justify-start font-semibold text-2xl border-l-2 pl-2 border-front"
       >
         Arda Özyiğit
       </Link>

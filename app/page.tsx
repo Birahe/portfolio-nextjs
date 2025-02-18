@@ -21,7 +21,7 @@ export default function Home() {
             studying at PoliTo, Italy.
           </p>
         </div>
-        <div>
+        <div className="absolute top-0 right-0 h-full w-full">
           <svg
             width="750"
             height="500"
@@ -39,9 +39,9 @@ export default function Home() {
             ></image>
           </svg>
           <svg
-            width="500"
+            width="750"
             height="500"
-            className="absolute z-20 right-[8.5%] top-[19%]"
+            className="absolute z-20 h-full  -right-[7%] top-[20%]"
           >
             <path
               d="M143.385 479.93L143.385 479.929C86.1603 457.468 37.9742 403.063 14.9662 333.777C-7.95257 264.576 -5.57458 180.566 36.1367 115.425C77.9457 50.1815 159.226 3.66055 244.33 0.656615C329.356 -2.3478 418.26 38.0833 460.778 103.39C503.292 168.78 499.498 259.152 470.485 326.715C441.489 394.148 387.218 438.755 326.908 465.895C266.679 492.947 200.512 502.389 143.385 479.93Z"
@@ -55,7 +55,7 @@ export default function Home() {
             viewBox="0 0 104 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="z-30 absolute top-2/3 right-1/3"
+            className="z-30 absolute w-1/4 top-2/3 right-1/4"
           >
             <rect
               x="12.2021"
