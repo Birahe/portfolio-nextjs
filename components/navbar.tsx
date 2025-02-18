@@ -16,7 +16,7 @@ export default function NavBar() {
   return (
     <div
       className={`sticky ${
-        sticky ? "bg-light_blue shadow " : ""
+        sticky ? "shadow " : ""
       }transition-all duration-500 ease-in-out top-0 w-full h-max grid-cols-3 flex justify-between py-9 items-center px-24 z-50 bg-light_theme text-front font-poppins`}
       id="navbar"
     >

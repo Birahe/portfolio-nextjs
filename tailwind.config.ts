@@ -22,9 +22,4 @@ export default {
     },
   },
   plugins: [],
-  safelist: [
-    {
-      pattern: /bg-light_blue/, // You can display all the colors that you need
-    },
-  ],
 } satisfies Config;
