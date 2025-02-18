@@ -25,7 +25,7 @@ export default function Home() {
           <svg
             width="750"
             height="500"
-            className="absolute h-full scale-110 top-36 right-0"
+            className="absolute h-full scale-110 top-[18%] right-0"
           >
             <mask id="svgmask3">
               <g transform="translate(125, 0)" width="100%" height="100%">
