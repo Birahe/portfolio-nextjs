@@ -9,7 +9,6 @@ export default function NavBar() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      const nav = document.querySelector("#navbar")!;
       setSticky(window.scrollY > 2);
     });
   }, []);
