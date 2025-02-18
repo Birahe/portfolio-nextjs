@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 export default function NavBar() {
   useEffect(() => {
-    window.addEventListener("scroll", (e) => {
+    window.addEventListener("scroll", () => {
       const nav = document.querySelector("#navbar")!;
       if (window.pageYOffset > 2) {
         nav.classList.add("bg-[#9dc2c9]");
