@@ -9,35 +9,41 @@ export default function NavBar() {
     >
       <Link
         href={"#"}
-        className="flex  w-64 justify-start font-semibold text-2xl"
+        className="flex w-96 justify-start font-semibold text-2xl border-b-2 border-front"
       >
         Arda Özyiğit
       </Link>
       <div className="relative left-[-10px] flex gap-16 w-96 justify-center">
-        <Link
-          href={"#"}
-          className={
-            "text-lg hover:bg-theme transition-all duration-300 p-2 rounded-lg"
-          }
-        >
-          Home
-        </Link>
-        <Link
-          href="#about"
-          className={
-            "text-lg hover:bg-theme transition-all duration-300 p-2 rounded-lg"
-          }
-        >
-          About
-        </Link>
-        <Link
-          href="#work"
-          className={
-            "text-lg hover:bg-theme transition-all duration-300 p-2 rounded-lg"
-          }
-        >
-          Work
-        </Link>
+        <div className="h-full border-b-2 border-front pt-2 pb-1">
+          <Link
+            href={"#"}
+            className={
+              "text-lg hover:bg-[#BDD9E8] transition-all duration-300 p-2 rounded-lg"
+            }
+          >
+            Home
+          </Link>
+        </div>
+        <div className="h-full border-b-2 border-front pt-2 pb-1">
+          <Link
+            href="#about"
+            className={
+              "text-lg hover:bg-[#BDD9E8] transition-all duration-300 p-2 rounded-lg "
+            }
+          >
+            About
+          </Link>
+        </div>
+        <div className="h-full border-b-2 border-front pt-2 pb-1">
+          <Link
+            href="#work"
+            className={
+              "text-lg hover:bg-[#BDD9E8] transition-all duration-300 p-2 rounded-lg"
+            }
+          >
+            Work
+          </Link>
+        </div>
       </div>
       <div className="flex w-64 justify-end">
         <h4>in</h4>
