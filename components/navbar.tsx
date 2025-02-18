@@ -2,25 +2,23 @@
 
 import Link from "next/link";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function NavBar() {
+  const [sticky, setSticky] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const nav = document.querySelector("#navbar")!;
-      if (window.pageYOffset > 2) {
-        nav.classList.add("bg-light_blue");
-        nav.classList.add("shadow");
-      } else {
-        nav.classList.remove("bg-light_blue");
-        nav.classList.remove("shadow");
-      }
+      setSticky(window.scrollY > 2);
     });
   }, []);
 
   return (
     <div
-      className={`sticky transition-all duration-500 ease-in-out top-0 w-full h-max grid-cols-3 flex justify-between py-9 items-center px-24 z-50 bg-light_theme text-front font-poppins`}
+      className={`sticky ${
+        sticky ? "bg-light_blue shadow " : ""
+      }transition-all duration-500 ease-in-out top-0 w-full h-max grid-cols-3 flex justify-between py-9 items-center px-24 z-50 bg-light_theme text-front font-poppins`}
       id="navbar"
     >
       <Link
