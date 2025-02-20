@@ -15,7 +15,7 @@ function About() {
           is the first school to educate gifted students. I had opportunity to
           attend in many club activities throughout my education.
         </p>
-        <ol className="relative border-s border-gray-200 dark:border-gray-700">
+        <ol className="relative border-s border-gray-200 dark:border-gray-700 ml-72 mr-36">
           <li className="mb-4 ms-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-front">
