@@ -3,10 +3,7 @@ import Link from "next/link";
 function About() {
   return (
     <div>
-      <div
-        id="about"
-        className={"w-full h-[screen] px-24 pt-16 font-poppins text-front"}
-      >
+      <div id="about" className={"w-full px-24 pt-16 font-poppins text-front"}>
         <p className="font-extrabold text-[6em] relative left-[-10px] text-title pt-2.5">
           about.
         </p>
