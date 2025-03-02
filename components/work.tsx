@@ -26,8 +26,7 @@ const projects: Project[] = [
       "Co-managed the development of a psychological story game in Unity using C#. Led programming efforts, overseeing game mechanics, system architecture, and implementation to ensure a cohesive and functional player experience.",
     tags: ["csharp", "gamedev", "programming"],
     external: "https://abyss.tevitol.org/projects/anima",
-    image:
-      "https://abyss.tevitol.org/_next/image/?url=%2Fstockimage.jpeg&w=1080&q=75",
+    image: "/abyss-banner.jpg",
   },
   {
     name: "Poetry Night",
