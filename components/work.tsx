@@ -118,8 +118,12 @@ function Work() {
                           }
                         })}
                       </div>
-                      <Link href={project.external!} target="_blank">
-                        <p className="text-2xl font-extrabold pt-3">
+                      <Link
+                        href={project.external!}
+                        target="_blank"
+                        className="group/e"
+                      >
+                        <p className="text-2xl font-extrabold pt-3 group-hover/e:text-light_blue transition-all duration-300">
                           {project.name}
                         </p>
                         <p className="line-clamp-6 text-ellipsis pt-2 text-transparent bg-gradient-to-t from-gray-500 to-front bg-clip-text">
