@@ -69,9 +69,7 @@ function Work() {
             .map((project) => {
               if (project.external) {
                 return (
-                  <Link
-                    href={project.external!}
-                    target="_blank"
+                  <div
                     key={project.name}
                     className={`transition-transform duration-500 h-[36em] w-full flex flex-col ${
                       project.tags.includes(filter as tag) || filter == ""
@@ -122,16 +120,20 @@ function Work() {
                           }
                         })}
                       </div>
-                      <div className="pt-4">
+                      <Link
+                        href={project.external!}
+                        target="_blank"
+                        className="pt-4"
+                      >
                         <p className="text-2xl font-extrabold ">
                           {project.name}
                         </p>
                         <p className="line-clamp-6 text-ellipsis pt-2 text-transparent bg-gradient-to-t from-gray-500 to-front bg-clip-text">
                           {project.description}
                         </p>
-                      </div>
+                      </Link>
                     </div>
-                  </Link>
+                  </div>
                 );
               } else {
                 return (
