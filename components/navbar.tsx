@@ -23,16 +23,16 @@ export default function NavBar() {
       <div
         className={`sticky ${
           sticky ? "shadow " : ""
-        }transition-all duration-500 ease-in-out top-0 w-full h-max py-9 px-24 z-50 bg-light_theme text-front font-poppins`}
+        }transition-all duration-500 ease-in-out top-0 w-full h-max py-6 px-24 z-50 bg-light_theme text-front font-poppins`}
         id="navbar"
       >
         <div
           className={`${
             percentage < 1 ? "w-0 " : "w-full"
-          } bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 transition-all duration-500 ease-in-out`}
+          } bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 transition-all duration-500 ease-in-out mb-4`}
         >
           <div
-            className="bg-light_blue h-2.5 rounded-full"
+            className="bg-theme h-2.5 rounded-full"
             style={{ width: `${percentage}%` }}
           />
         </div>

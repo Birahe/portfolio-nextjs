@@ -91,7 +91,7 @@ function Work() {
                               return (
                                 <span
                                   key={i}
-                                  className="py-1 px-2 rounded-lg bg-orange-400 cursor-pointer"
+                                  className="py-1 px-2 rounded-lg bg-[#609191] cursor-pointer text-front"
                                   onClick={() => setFilter(tag)}
                                 >
                                   {tag}
@@ -101,7 +101,7 @@ function Work() {
                               return (
                                 <span
                                   key={i}
-                                  className="py-1 px-2 rounded-lg bg-blue-400 cursor-pointer"
+                                  className="py-1 px-2 rounded-lg bg-theme cursor-pointer text-front"
                                   onClick={() => setFilter(tag)}
                                 >
                                   {tag}
@@ -111,7 +111,7 @@ function Work() {
                               return (
                                 <span
                                   key={i}
-                                  className="py-1 px-2 rounded-lg bg-green-400 cursor-pointer"
+                                  className="py-1 px-2 rounded-lg bg-[#A6C4C4] cursor-pointer text-front"
                                   onClick={() => setFilter(tag)}
                                 >
                                   {tag}
