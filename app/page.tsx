@@ -1,7 +1,7 @@
 import Hero from "@/components/hero";
 import About from "@/components/about";
 import Work from "@/components/work";
-import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <About />
       <Work />
-      <Contact />
+      <Footer />
     </div>
   );
 }
