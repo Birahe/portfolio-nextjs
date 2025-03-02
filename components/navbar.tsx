@@ -75,7 +75,7 @@ export default function NavBar() {
               </Link>
             </div>
           </div>
-          <div className="flex w-64 justify-end">
+          <div className="flex w-80 justify-end">
             <div className="group/d hover:border-white h-full border-b-2 border-front pt-2 pb-1 transition-all duration-300">
               <Link
                 href={"https://link.ardaozyigit.info"}
