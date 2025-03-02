@@ -39,7 +39,7 @@ export default function NavBar() {
         <div className="grid-cols-3 flex justify-between items-center h-full w-full">
           <Link
             href={"#"}
-            className="flex w-96 justify-start font-semibold text-2xl border-l-2 pl-2 pt-2 border-front"
+            className="flex w-96 justify-start font-semibold text-2xl border-l-2 pl-2 mt-2 border-front"
           >
             Arda Özyiğit
           </Link>
